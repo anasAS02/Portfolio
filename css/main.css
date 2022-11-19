@@ -33,14 +33,36 @@ a{
     box-shadow: -4px 2px 13px -5px black;
     padding-left: 30px;
     padding-right: 30px;
-}
-.btn-shape p{
-    font-size: 30px;
-    font-weight: 500;
-    padding: 10px;
+    border: none;
+    font-weight: bold;
 }
 .btn-shape:hover{
     transform: translateY(-10px);
+}
+.special-heading{
+    padding-top: 125px;
+    padding-bottom: 100px;
+    text-align: center;
+    position: relative;
+}
+.special-heading::after{
+    content: "";
+    position: absolute;
+    background-color: var(--main-color);
+    width: 3%;
+    height: 6px;
+    border-radius: 6px;
+    top: 56%;
+    left: 48%;
+}
+.special-heading h2{
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.special-heading p{
+    font-size: 20px;
+    line-height: 1.6;
+    color: var(--p-color);
 }
 /* End Components */
 
@@ -115,7 +137,7 @@ a{
     rgba(245,245,245,.8)),
      url(../imgs/landing.png);
     background-size: cover;
-    height: calc(100vh - 269px);
+    min-height: 74vh;
     padding-top: 180px;
     text-align: center;
 }
@@ -159,7 +181,7 @@ a{
     transform: rotate(90deg);
     border: 2px solid var(--p-color);
     margin: 50px auto;
-    margin-top: 130px;
+    margin-top: 70px;
 }
 .landing .animation span{
     width: 20%;
@@ -188,3 +210,45 @@ a{
     }
 }
 /* End Landing */
+
+/* Start About */
+.about{
+    padding-bottom: 100px;
+    background-color: #eee;
+}
+.about .info{
+    display: flex;
+}
+.about .left-side{
+    padding-left: 50px;
+}
+.about h3{
+    font-size: 35px;
+}
+.about .left-side .text p{
+    font-size: 20px;
+    line-height: 1.8;
+    color: var(--p-color);
+}
+.about .info-btn{
+    margin-top: 15px;
+}
+.about .right-side{
+    padding-right: 135px;
+}
+.about .right-side h3{
+    padding-left: 16px;
+}
+.about .right-side .skills{
+    display: flex;
+    flex-wrap: wrap;
+}
+.about .right-side .skills .skill{
+    background-color: rgb(160, 160, 160);
+    color: var(--w-color);
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 30px;
+    margin-left: 17px;
+}
+/*End About*/
