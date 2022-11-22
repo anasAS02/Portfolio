@@ -7,10 +7,12 @@
     --main-transition: .3s;
 }
 body{
-    box-sizing: border-box;
     font-family: 'Source Sans Pro', sans-serif;
-    padding: 0;
+}
+*{
+    box-sizing: border-box;
     margin: 0;
+    padding: 0;
 }
 html{
     scroll-behavior: smooth;
