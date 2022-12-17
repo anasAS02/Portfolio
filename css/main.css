@@ -296,6 +296,9 @@ a{
     padding-left: 100px;
     background-color: white;
 }
+.landing .container a{
+    color: black;
+}
 .p-description .image img{
     width: 85%;
     padding-top: 100px;
