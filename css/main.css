@@ -130,9 +130,9 @@ a{
         flex-direction: column;
     }
     .header .container ul li{
-        padding-top: 35px;
+        padding-top: 55px;
         text-align: right;
-        margin-right: -60px
+        margin-right: -60px;
     }
     .header .container ul li a::after{
         content: "";
