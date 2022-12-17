@@ -49,7 +49,7 @@ a{
     text-align: center;
     position: relative;
 }
-.special-heading::after{
+.special-heading .special::before{
     content: "";
     position: absolute;
     background-color: var(--main-color);
@@ -68,7 +68,12 @@ a{
     font-size: 20px;
     line-height: 1.6;
     color: var(--p-color);
+    margin-top: 35px;
+}
+@media(min-width: 1024px){
+.special-heading p{
     margin-top: 60px;
+}
 }
 /* End Components */
 
