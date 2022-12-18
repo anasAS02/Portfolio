@@ -74,6 +74,15 @@ a{
 .special-heading .special::before{
     top: 40%;
 }
+.about .right-side .skills .skill{
+    padding: 15px;
+    font-size: 20px;
+}
+.btn-shape{
+    width: 240px;
+    height: 80px;
+    font-size: 20px;
+}
 }
 @media(min-width: 1024px){
 .special-heading p{
