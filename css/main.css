@@ -70,12 +70,10 @@ a{
     color: var(--p-color);
     margin-top: 35px;
 }
-@media(max-width: 767px){
-    .special-heading .special::before{
-        width: 5%;
-        height: 6px;
-        top: 40%;
-    }
+@media(max-width: 992px){
+.special-heading .special::before{
+    top: 40%;
+}
 }
 @media(min-width: 1024px){
 .special-heading p{
