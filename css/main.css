@@ -83,6 +83,10 @@ a{
     height: 80px;
     font-size: 20px;
 }
+.p-description .skills .skill{
+    padding: 15px;
+    font-size: 25px;
+}
 }
 @media(min-width: 1024px){
 .special-heading p{
