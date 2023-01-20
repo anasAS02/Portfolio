@@ -206,6 +206,12 @@ a{
 .landing .l-btn{
     margin: 50px auto;
 }
+.landing .l-btn a{
+    transition: 0.3s;
+}
+.landing .l-btn:hover a{
+    color: red;
+}
 .landing .animation{
     width: 4%;
     height: 29px;
