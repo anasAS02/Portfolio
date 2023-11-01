@@ -1,3 +1,1 @@
-# Built by: (HTML, CSS).
-
-# Libraries: Font Awesome.
+# Built utilizing(HTML, CSS).
